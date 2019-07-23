@@ -1,7 +1,12 @@
 header {
     background-color: rgb(43,69,92);
-    width: 100%;
+    width: 100px;
     height: 200px;
+    color: red;
+}
+
+h1 {
+    color: red;
 }
 .columns {
     display: flex;
