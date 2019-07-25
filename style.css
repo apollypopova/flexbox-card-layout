@@ -15,22 +15,36 @@ header {
 
 h1 {
     color: rgb(255, 255, 255);
-    font-weight: normal;
     margin: 0;
+    font-weight: normal;
 }  
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 
 .columns {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    width: 45%;
 
 }
 
-.Whiskey, .Fluffy, .Kitty {
+.Whiskey, 
+.Fluffy, 
+.Kitty {
     background-color: rgb(255,255,255);
-    width: 270px;
-    height: 100%;
     flex-grow: 1;
+    width: 33.33%;
+    margin-top: 40px;
+}
+
+.Whiskey, 
+.Fluffy {
+    margin-right: 10px;
 }
 
 .Whiskey .image {
@@ -47,10 +61,17 @@ h1 {
 
 .image {
     background-size: cover;
-    height: 160px;
-    width: 240px;
+    height: 120px;
+    max-width: 270px;
+    text-align: center;
 }
 
+h2 {
+    color: rgb(233,101,100);
+    padding-left: 15px;
+}
+ 
 article {
-    width: 240px;
+    padding: 0px 15px 15px 15px;
+    font-size: 16px;
 }
